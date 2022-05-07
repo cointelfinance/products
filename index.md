@@ -1,27 +1,19 @@
 # Cointel's Tech Docs
 
-## Software Products & Lifecycles
-| Product | Description | Product Lifecycle |
-|---|---|---|
-| [cointel-api](https://cointel-api.herokuapp.com/__docs__/) | 💡 Cointel's Free Api | production |
-| [cointel-app](https://github.com/cointelfinance/cointel-api) | ⏬ Cointel's App | beta |
-| [request-cointel](https://github.com/cointelfinance/request) | ✅ Request a Cointel Account | production |
+## Request Account
+[cointel-request](https://cointel.shinyapps.io/request)
+
+## dApp
+[cointel-dapp](https://cointel.shinyapps.io/dapp)
+
+## REST API
+[cointel-api is here 💡](https://cointel-api.herokuapp.com/__docs__/)
 
 ## Python Package
-[cointelPY repor is here](https://github.com/cointelfinance/cointelPY)
+[cointelPY repo is here ⏬](https://github.com/cointelfinance/cointelPY)
 
 ## R Package
-[cointelR repo is here](https://github.com/cointelfinance/cointelR)
+[cointelR repo is here ✅](https://github.com/cointelfinance/cointelR)
 
-# Software as a Service Infrastructure
-```mermaid
-flowchart LR
-A{Cointel Repo} --> B(Cointel Docker Image)
-B --> C{Cointel API}
-C -->|BI Integration| D[Tableau]
-C -->|BI Integration| E[Looker]
-C -->|BI Integration| F[Power BI]
-C -->|BI Integration| G[R Shiny]
-C -->|Database| H[Snowflake]
-C -->|API| I[Your API Layer]
-```
+## Docker Image
+[cointel-docker](https://hub.docker.com/r/cointelfinance/api)
