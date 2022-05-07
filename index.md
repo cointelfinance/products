@@ -1,4 +1,4 @@
-##  
+## Cointel Product Offerings
 ## Request Beta Account
 [cointel-request](https://cointel.shinyapps.io/request)
 
