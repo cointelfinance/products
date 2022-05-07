@@ -1,2 +1,2 @@
-# tech-docs
-Cointel Tech Docs for Api &amp; App Services
+# products
+https://cointelfinance.github.io/products
