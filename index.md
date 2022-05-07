@@ -1,4 +1,4 @@
-# Cointel's Tech Docs
+# Cointel's Products
 
 ## Request Account
 [cointel-request](https://cointel.shinyapps.io/request)
